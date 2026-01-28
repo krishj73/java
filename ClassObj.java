@@ -1,6 +1,6 @@
 import java.util.*;
 class Student{
-    static void getInfo(){
+    void getInfo(){
         Scanner sc = new Scanner(System.in);
         
         System.out.print("enter name of student : ");
@@ -18,6 +18,7 @@ class Student{
 }
 public class ClassObj {
     public static void main(String[] args) {
-        Student.getInfo();
+        Student s = new Student();
+        s.getInfo();
     }
 }
