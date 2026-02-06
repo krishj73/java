@@ -6,7 +6,7 @@ abstract class Vehicle{
         System.out.println("the vehicle is started");
     }
 
-    static void motion(){  //static method - can add many, no use of obj declaration [class.method()]
+    static void motion(){  //static method - can add many, no need of obj declaration [class.method()]
         System.out.println("this vehicle started moving");
     }
 
