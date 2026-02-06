@@ -11,8 +11,9 @@ class StringOps{
         
         String formattedString = String.format("my name is %s, i'm a %s aged %d, my gpa is %f, my fav symbol is %c and all this is %b",name,prof,age,gpa,symbol,yesno);
         System.out.println(formattedString);
-
-        /*.isEmpty() - checks if string empty (true) or not (false)
+        
+        /*
+        .isEmpty() - checks if string empty (true) or not (false)
         .length() - length of string
         .toUpperCase() - converts to uppercase
         .toLowerCase() - converts to lowercase
