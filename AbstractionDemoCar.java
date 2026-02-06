@@ -1,4 +1,4 @@
-//partial abstraction using abstract keyword
+//partial abstraction using abstract keyword - "extends"
 abstract class Vehicle{
     abstract void intro(); //abstract method - can add many
     
