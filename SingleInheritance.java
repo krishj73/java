@@ -1,3 +1,4 @@
+//A-->B
 class A {
     void name(){
         System.out.println("hi! my name is A");
