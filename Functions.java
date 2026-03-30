@@ -24,11 +24,11 @@ public class Functions {
     }
     
     //variable length args - when no. of arguments is not known
-    static void numvar(int ...n){
+    static void num(int ...n){
         System.out.println(Arrays.toString(n));
     }
 
-    static void stringvar(String ...s){
+    static void string(String ...s){
         System.out.println(Arrays.toString(s));
     }
 
@@ -41,7 +41,7 @@ public class Functions {
         String str = intro("krish");
         System.out.println(str);
 
-        numvar(1,2,3);
-        stringvar("abc", "def");
+        num(1,2,3);
+        string("abc", "def");
     }
 }
