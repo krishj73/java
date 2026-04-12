@@ -1,3 +1,4 @@
+//boolean(1 bit), byte(1 byte), char & short(2 bytes), int & float(4 bytes), long & double(8 bytes)
 public class TypeConversion {
     public static void main(String[] args) {
         int a = 10; // implicit - byte-->short-->int-->long-->float-->double
