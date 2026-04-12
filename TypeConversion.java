@@ -16,6 +16,5 @@ public class TypeConversion {
         int num = 456;
         String str2 = String.valueOf(num);
         System.out.println("int to string : "+str2);
-
     }
 }
